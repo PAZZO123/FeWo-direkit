@@ -1,0 +1,668 @@
+
+.nav-items a:hover {
+  color: lab(52.66% 12.89 -62.03);
+} 
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: white;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0057D8;
+      padding-left: 100px; /* deep blue */
+    }
+
+    .nav-items {
+      display: flex;
+      align-items: center;
+       padding: 10px 250px;
+      gap: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #001B54;
+      font-weight: 500;
+    }
+
+    .download-btn {
+      padding: 6px 15px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      color: #001B54;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .hero-section {
+ 
+  background: url('images/wallaper.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  
+}
+
+.overlay {
+  
+  padding: 40px 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.search-box {
+
+  display: flex;
+  gap: 10px;
+  height: 100px;
+
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  height: 50px;
+  width: 300px;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.input-group span {
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.input-group input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: transparent;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #0057D8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.input-group span {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.input-group i {
+  font-size: 18px;
+}
+
+.lower {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.signin-banner {
+  background-color: #0a2458;
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.signin-banner span {
+  font-size: 24px;
+}
+
+.signin-banner input[type="button"] {
+  background-color: #1e5df8;
+  color: white;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.card-row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  border-radius: 12px;
+  padding: 15px;
+  background-color: ;
+  
+}
+
+.card a {
+  color:  #f0f0f0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blue-card {
+  background-color: #0072ce;
+  color: white;
+}
+
+.img-card {
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+}
+
+/*lower 2 party */
+
+.lower2 {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.lower2 h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #001B54;
+}
+
+.accommodation-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.accommodation {
+  flex: 1;
+  min-width: 180px;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+/*lowe3 Part*/
+.lower3 {
+ padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.lower3 h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.lower3 h6 {
+  font-weight: normal;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.card-rows {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.cards {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 230px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cards img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.rating {
+  background: #f0f0f0;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rating span {
+  font-weight: normal;
+  color: #555;
+  margin-left: 5px;
+}
+
+.cards h4 {
+  font-size: 16px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.cards p {
+  font-size: 14px;
+  color: gray;
+  margin: 0 10px 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin: 0 10px 10px;
+}
+
+.price span {
+  display: block;
+  font-size: 13px;
+  color: gray;
+}
+
+.promo-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.promo {
+  flex: 1;
+  min-width: 300px;
+  max-width: 48%;
+  position: relative;
+}
+
+.promo img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.promo p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/*Lower 4 part*/
+
+.lower4 {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.lower4 h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.lower4 h6 {
+  font-weight: normal;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.card-row1 {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.card1 {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 230px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card1 img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.rating {
+  background: #f0f0f0;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.rating span {
+  font-weight: normal;
+  color: #555;
+  margin-left: 5px;
+}
+
+.card1 h4 {
+  font-size: 15px;
+  margin: 10px;
+  margin-bottom: 0;
+  height: 42px;
+  overflow: hidden;
+}
+
+.card1 p {
+  font-size: 13px;
+  color: gray;
+  margin: 0 10px 10px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+  margin: 0 10px 10px;
+}
+
+.price span {
+  display: block;
+  font-size: 13px;
+  color: gray;
+}
+
+.suggestions-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.text-box {
+  flex: 1;
+  min-width: 280px;
+}
+
+.text-box h2 {
+  font-size: 26px;
+  line-height: 1.3;
+}
+
+.text-box p {
+  font-size: 14px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.suggestion-imgs {
+  display: flex;
+  gap: 10px;
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+.suggestion-imgs img {
+  width: 130px;
+  height: 130px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+/*footer pary*/
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.brand-name {
+  color: #006ce4;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.footer-column h6 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #006ce4;
+  font-size: 13px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+
+
+/*middle section*/
+.middle-section {
+     max-width: 1500px;
+  font-family: Arial, sans-serif;
+  color: #1a1a1a;
+  background-color: #ffffff;
+  padding: 40px 20px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+  max-width: 500px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.hero-text input[type="button"] {
+  background-color: #0057e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.content-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-section h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+.content-section h6 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text, .hero-image {
+    max-width: 100%;
+  }
+
+  .hero-text input[type="button"] {
+    width: 100%;
+  }
+}
+
+
+.popular-destinations {
+
+  max-width: 1400px;
+  margin: 0 auto 60px auto;
+}
+
+.popular-destinations h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.popular-destinations ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.popular-destinations li {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.popular-destinations li span {
+  font-size: 14px;
+  transform: rotate(0deg);
+  transition: transform 0.3s;
+  color: #000;
+}
+
+
+.rating span{
+    background-color: green;
+    font-size: large;
+    color:white;
+    max-width: 50px;
+}

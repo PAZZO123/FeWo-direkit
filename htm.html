@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FeWo-direkt Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 30px;
+      background-color: white;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #0057D8; /* deep blue */
+    }
+
+    .nav-items {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #001B54;
+      font-weight: 500;
+    }
+
+    .download-btn {
+      padding: 6px 15px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      color: #001B54;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .download-btn::after {
+      content: "⬇️";
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="logo">FeWo-direkt<sup>®</sup></div>
+    <div class="nav-items">
+      <a href="#" class="download-btn">Download the app</a>
+      <a href="#">Travel planner</a>
+      <a href="#">Register accommodation</a>
+      <a href="#">Help</a>
+      <a href="#">My travels</a>
+      <a href="#">Register</a>
+    </div>
+  </div>
+
+</body>
+</html>
