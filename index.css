@@ -239,7 +239,7 @@
 
 /*lowe3 Part*/
 .lower3 {
- padding: 30px;
+ padding: 50px;
   font-family: Arial, sans-serif;
   max-width: 1500px;
   margin: auto;
@@ -267,12 +267,13 @@
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  width: 230px;
+  width: 260px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 10px;
 }
 
 .cards img {
-  width: 400px;
+  width: 100%;
   height: 140px;
   object-fit: cover;
   height: 200px;
@@ -372,8 +373,9 @@
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  width: 230px;
+  width: 260px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 10px;
 }
 
 .card1 img {
@@ -451,11 +453,12 @@
   gap: 10px;
   flex: 2;
   flex-wrap: wrap;
+  overflow-x:auto;
 }
 
 .suggestion-imgs img {
-  width: 130px;
-  height: 130px;
+  width: 200px;
+  height: 220px;
   border-radius: 12px;
   object-fit: cover;
 }
@@ -668,4 +671,18 @@ hr {
     font-size: large;
     color:white;
     max-width: 50px;
+}
+.accommodations {
+  flex: 1;
+  min-width: 150px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.6);
 }
