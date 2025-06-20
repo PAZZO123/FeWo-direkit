@@ -34,16 +34,27 @@
     <div class="search-box">
       <div class="input-group">
         <span><i class="fas fa-location-dot"></i></span>
-        <input type="text" placeholder="Wo soll's hingehen?">
+        <div>
+            <input type="text" placeholder="Wo soll's hingehen?">
+        </div>
+        
       </div>
       <div class="input-group">
         <span>
             <i class="fas fa-calendar-days"></i></span>
-        <input type="text" placeholder="June 28 – July 12">
+            <div>
+                <p style="color: black; text-align: start;">Date</p>
+                <input type="text" placeholder="June 28 – July 12">
+            </div>
+        
       </div>
       <div class="input-group">
         <span><i class="fas fa-user-group"></i></span>
-        <input type="text" placeholder="2 travelers">
+        <div>
+            <p style="color: black; text-align: start;">guests</p>
+            <input type="text" placeholder="2 travelers">
+        </div>
+        
       </div>
       <button>Seek</button>
     </div>
@@ -60,21 +71,31 @@
   </div>
 
   <div class="card-row">
-    <div class="card blue-card">
+    <div class="cards-container">
+        <div class="card blue-card">
       <p><strong>Prices without surprises:</strong> The displayed price already includes the total.</p>
       <a href="#">Book now →</a>
     </div>
     <div class="card img-card" style="background-image: url('images/1s.jpg');background-size:cover;"></div>
-    <div class="card blue-card">
+    </div>
+
+    <div class="cards-container">
+<div class="card blue-card">
       <p><strong>Save over €80</strong> on last-minute breaks</p>
       <a href="#">Book now →</a>
     </div>
     <div class="card img-card" style="background-image: url('images/2s.jpg'); background-size:cover;"></div>
-    <div class="card blue-card">
+    </div>
+    
+    <div class="cards-container">
+        <div class="card blue-card">
       <p><strong>A weekend can be full</strong> of holiday memories</p>
       <a href="#">Book now →</a>
     </div>
      <div class="card img-card" style="background-image: url('images/3s.jpg');background-size:cover;"></div>
+    </div>
+    
+    
   </div>
 </div>
 
@@ -97,7 +118,16 @@
 
   <div class="card-rows">
     <div class="cards">
-      <img src="images/10s.jpg" alt="Holiday home"><i class="fa-solid fa-chevron-right"></i>
+        <div style="background: url('images/10s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+      <!-- <img src="images/10s.jpg" alt="Holiday home"> -->
       <div class="rating"><span>9.6</span> Unusual (121 reviews)</div>
       <h4>Cozy holiday home at Soorbeckenhof</h4>
       <p>Vierhöfen, Lower Saxony</p>
@@ -105,7 +135,16 @@
     </div>
     
     <div class="cards">
-      <img src="images/8s.jpg" alt="Apartment in Strausberg">
+        <div style="background: url('images/8s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+      <!-- <img src="images/8s.jpg" alt="Apartment in Strausberg"> -->
       <div class="rating"><span>9.0</span>Wonderful (250 reviews)</div>
       <h4>Apartment for 6 people in Strausberg</h4>
       <p>Strausberg</p>
@@ -113,7 +152,16 @@
     </div>
 
     <div class="cards">
-      <img src="images/9s.jpg" alt="Holiday with friends">
+        <div style="background: url('images/9s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+     
       <div class="rating"><span>10</span>Unusual (104 reviews)</div>
       <h4>Holiday with friends – All-round carefree package</h4>
       <p>Masserberg, TH</p>
@@ -121,7 +169,16 @@
     </div>
 
     <div class="cards">
-      <img src="images/7s.jpg" alt="Old rectory">
+        <div style="background: url('images/7s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+
       <div class="rating"><span>10</span>Unusual (122 reviews)</div>
       <h4>Holidays in the old rectory</h4>
       <p>Temnitzquell, Brandenburg</p>
@@ -129,7 +186,16 @@
     </div>
 
     <div class="cards">
-      <img src="images/3s.jpg" alt="Gem on Lake Werbellinsee">
+        <div style="background: url('images/3s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+
       <div class="rating"><span>9.8</span> Exceptional</div>
       <h4>A gem on Lake Werbellinsee</h4>
       <p>Grüntal</p>
@@ -159,7 +225,16 @@
 
   <div class="card-row1">
     <div class="card1">
-      <img src="images/4s.jpg" alt="Dubai Apartment">
+        <div style="background: url('images/4s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+      
       <div class="rating"><span>9.4</span>Unusual (109 reviews)</div>
       <h4>Beautiful apartment overlooking the sea in 5 * residences</h4>
       <p>Dubai, Emirati Arab</p>
@@ -167,7 +242,16 @@
     </div>
 
     <div class="card1">
-      <img src="images/10s.jpg" alt="Tenerife Club">
+        <div style="background: url('images/10s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+    
       <div class="rating"><span>9.4</span>Unusual (64 reviews)</div>
       <h4>Club Tenerife Los Diamante 1 Bed Balcony Sea View</h4>
       <p>Arona, CN</p>
@@ -175,7 +259,16 @@
     </div>
 
     <div class="card1">
-      <img src="images/9s.jpg" alt="2-story apartment">
+        <div style="background: url('images/9s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+ 
       <div class="rating"><span>9.4</span>Unusual (57 reviews)</div>
       <h4>Sunny, 2-story apartment with views</h4>
       <p>Arona, Tenerife</p>
@@ -183,7 +276,16 @@
     </div>
 
     <div class="card1">
-      <img src="images/3s.jpg" alt="Pool and BBQ">
+        <div style="background: url('images/3s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+
       <div class="rating"><span>9.4</span>Unusual (149 reviews)</div>
       <h4>SWIMMING POOL, GAS GRILL, LARGE DECK, PARKING</h4>
       <p>Galveston, TX</p>
@@ -191,7 +293,16 @@
     </div>
 
     <div class="card1">
-      <img src="images/8s.jpg" alt="3 blocks to beach">
+        <div style="background: url('images/8s.jpg'); background-size: cover;" class="card-img">
+            <div class="left">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="right">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            
+        </div>
+
       <div class="rating"><span>9.4</span>Unusual (149 reviews)<</div>
       <h4>3 blocks to beach + Tennis Court</h4>
       <p>Galveston, TX</p>
